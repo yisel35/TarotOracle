@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BirthdayInput from './components/BirthdayInput.js';
-import ResultsDisplay from './components/ResultsDisplay.js'; 
+import BirthdayInput from './components/BirthdayInput.jsx';
+import ResultsDisplay from './components/ResultsDisplay.jsx'; 
 import { calculateZodiacSign } from './utils/zodiacLogic';
 import { tarotCards } from './utils/tarotData';
 

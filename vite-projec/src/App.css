@@ -1,0 +1,75 @@
+/* src/App.css */
+
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #5d3f6a; /* Un tono púrpura para un toque místico */
+}
+
+.birthday-form {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #f9f9f9;
+}
+
+.birthday-form input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.birthday-form button {
+  padding: 10px 15px;
+  background-color: #7b68ee; /* Púrpura medio */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tarot-spread-container {
+  display: flex;
+  flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.tarot-card {
+  border: 2px solid #5d3f6a;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 12px;
+  max-width: 300px;
+  flex: 1 1 300px; /* Flex para asegurar que ocupen un tercio del espacio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.card-name {
+  font-style: italic;
+  color: #333;
+}
+
+.card-advice {
+  text-align: left;
+  margin-top: 10px;
+  border-top: 1px dashed #ddd;
+  padding-top: 10px;
+}
+
+.zodiac-sign-result {
+  font-size: 1.4em;
+  color: #3a2449;
+  font-weight: bold;
+}
